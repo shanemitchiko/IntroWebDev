@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+</head>
+<body>
+	<h1>GoodEats</h1>
+
+	<nav>
+		<hr />
+		<p><a href="file:///Users/ShaneMitchiko/Documents/Repository/Portfolio/Restaurant.html">Home</a></p>
+		<p><a href="file:///Users/ShaneMitchiko/Documents/Repository/Portfolio/menu.html">Menu</a></p>
+		<p><a href="file:///Users/ShaneMitchiko/Documents/Repository/Portfolio/contact.html">Contact Us</a></p>
+		<hr />
+	</nav>
+
+<form action="submit.html" method="POST">
+	<label for="name">Name:</label><br />
+	<input type="text" id="name" name="name"><br />
+	<label for="email">Email:</label><br />
+	<input type="email" id="email" name="email"><br />
+
+	<label for="inquiry">Reason for Inquiry:</label>
+	<select id="inquiry" name="inquiry">
+		<option value="default" selected>Catering</option>
+		<option value="private">Private Party</option>
+		<option value="feedback">Feedback</option>
+		<option value="other">Other</option><br />
+	
+	<br />
+	<label for="info">Additional Information:</label>
+	<textarea id="info" name="info"></textarea>
+	<br />
+
+
+	<legend>Have you been to the restaurant?</legend>
+	<input type=radio id="choice1" name="visit" value="no">
+	<label for="choice1">No</label>
+	<input type=radio id="choice2" name="visit" value="yes">
+	<label for="choice2">Yes</label>
+
+
+	<legend>Best days to contact you</legend>
+	<input type="checkbox" id="monday" name="monday" value="monday">
+	<label for="monday">M</label>
+	<input type="checkbox" id="tuesday" name="tuesday" value="tuesday">
+	<label for="tuesday">T</label>
+	<input type="checkbox" id="wednesday" name="wednesday" value="wednesday">
+	<label for="wednesday">W</label>
+	<input type="checkbox" id="thursday" name="thursday" value="thursday">
+	<label for="thursday">Th</label>
+	<input type="checkbox" id="friday" name="friday" value="friday">
+	<label for="friday">F</label> <br />
+
+
+	<input type="submit" name="submit" value="Send Request">
+
+<footer>
+	<hr />
+	<p>123 Beach 45th street, Rockaway Beach, NY, 11693</p>
+	<p>Telephone: 718-901-2345</p>
+</footer>
+
+</body>
+</html>
