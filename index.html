@@ -2,6 +2,39 @@
 <html lang="english">
 <head>
 	<title>Bailey's Portfolio</title>
+	<link href="styles/main.css" rel="stylesheet" type="text/css" />
+	<style>
+		caption{
+			font-weight: bold;
+			font-size: 1.2em;
+			margin-bottom: 8px;
+		}
+
+		table, th, td {
+			border: 1px solid #0d1f2d;
+			border-collapse: collapse;
+			padding: 5px 10px;
+		}
+
+		table {
+			width: 90%;
+			margin: auto;
+		}
+		tr {
+			height: 30px;
+		}
+
+		th{
+			background-color: #546a7b;
+			color: #f2eded;
+		}
+
+		tr:nth-child(odd) {
+			background-color: #e4c3ad;
+		}
+
+
+	</style>
 </head>
 <body>
 
@@ -10,15 +43,12 @@
 </header>
 
 <nav>
-	<hr />
 	<span>
 	<p><a href="#hobbies">Projects</a></p>
 	<p><a href="file:///Users/ShaneMitchiko/Documents/Repository/Portfolio/contactme.html">Contact Me</a></p>
 	<p><a href="about-me">Testimonials</a></p>
-	</span>
-	<hr />
+	<div class="clear-float"></div>
 </nav>
-
 
 <section>
 	<article id="about-me">
@@ -31,18 +61,23 @@
 		<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
 		The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+	<div style="clear-float"></div>
 	</article>
 
 	<article id="past-experiences">
 	<h2><em>Past Experiences</em></h2>
-	<img src="images/IMG_0588.jpg" alt=" " width="420" height="280" />
+	<img src="images/IMG_0588.jpg" alt=" " width="320" height="200" />
+	<div class="right content">
 	<table>
 		<caption>Employment History</caption>
+		<thead>
 		<tr>
 			<th>Years of Employment</th>
 			<th>Title</th>
 			<th>Company</th>
 		</tr>
+		</thead>
+		<tbody>
 		<tr>
 			<td>2018-Present</td>
 			<td>Apprentice</td>
@@ -58,7 +93,10 @@
 			<td>Student</td>
 			<td>State University</td>
 		</tr>
+		</tbody>
 	</table>
+	</div>
+	<div class="clear-float"></div>
 	</article>
 
 	<article id="hobbies">
@@ -92,12 +130,11 @@
 			<li>Skiing</li>
 		</ul>
 	</ul>
-
+	<div style="clear-float"></div>
 	</article>
 </section>
 
 	<footer>
-		<hr /> 
 		<p>&copy; 2020 Shane Mitchiko Palabasan. All rights reserved. </p>
 	</footer>
 
